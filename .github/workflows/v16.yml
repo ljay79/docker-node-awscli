@@ -1,4 +1,4 @@
-name: sleavely/node-awscli:16.x
+name: ljay/node-awscli:16.x
 
 on:
   push:
@@ -25,4 +25,4 @@ jobs:
         with:
           pull: true
           push: true
-          tags: ${{ github.workflow }},sleavely/node-awscli:latest
+          tags: ${{ github.workflow }}
