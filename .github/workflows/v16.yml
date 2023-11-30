@@ -1,4 +1,4 @@
-name: sleavely/node-awscli:16.x
+name: ljay/node-awscli:16.x
 
 on:
   push:
