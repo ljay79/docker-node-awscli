@@ -1,4 +1,4 @@
-FROM node:20
+FROM node:14
 
 # zip
 RUN apt-get update && apt-get install -y zip && rm -rf /var/lib/apt/lists/*
